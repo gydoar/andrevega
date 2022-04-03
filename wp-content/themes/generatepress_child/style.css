@@ -8,66 +8,149 @@
  Version:      0.1
 */
 
-.site-content a:hover{
-    text-decoration:underline;
+.site-content a:hover {
+  text-decoration: underline;
 }
 
 .made-with-love img {
-    display: inline-block;
-    vertical-align: middle;
-    max-width: 16px;
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 16px;
 }
-.main-navigation:not(.slideout-navigation) .main-nav li.nav-button a{
-    background-color:#15171a !important;
-    border-radius:.5rem !important;
+.main-navigation:not(.slideout-navigation) .main-nav li.nav-button a {
+  background-color: #15171a !important;
+  border-radius: 0.5rem !important;
 }
-.main-navigation:not(.slideout-navigation) .main-nav li.nav-button a:hover{
-    background-color:#15171a !important;
+.main-navigation:not(.slideout-navigation) .main-nav li.nav-button a:hover {
+  background-color: #15171a !important;
 }
-.home-box{
-    background: #fff;
-    padding: 10px 20px;
-    border-radius: 5px;
+.home-box {
+  background: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
 }
-.home-box p{
-    margin-bottom:0px;
+.home-box p {
+  margin-bottom: 0px;
 }
-.button-green{
-    background-color:#d1ff19;
-    border-radius:.6rem;
-    
+.button-green {
+  background-color: #d1ff19;
+  border-radius: 0.6rem;
 }
-.button-green a{
-    text-decoration:none !important;
-    padding:10px 20px !important;
+.button-green a {
+  text-decoration: none !important;
+  padding: 10px 20px !important;
 }
-mark{
-    background-color:#D1FF19;
+mark {
+  background-color: #d1ff19;
 }
-.fontsize38{
-    font-size:38px;
+.fontsize38 {
+  font-size: 38px;
 }
-.header__blog__archive h2{
+.header__blog__archive h2 {
+  margin-bottom: 0px;
+}
+.entry-summary p {
+  color: #6666697a;
+}
+.projects__portafolio img {
+  box-shadow: 2px 5px 15px 0 rgb(0 0 0 / 8%);
+  border-radius: 6px !important;
+  transition: all 0.4s ease;
+}
+.projects__portafolio img:hover {
+  box-shadow: 2px 5px 15px 0 rgb(0 0 0 / 16%);
+}
+.projects__portafolio p {
+  margin-bottom: 10px;
+}
+.projects__portafolio p a {
+  color: #666669 !important;
+}
+button:not(.menu-toggle),
+html input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.button,
+.button:visited,
+.wp-block-button .wp-block-button__link {
+  border-radius: 0.5rem !important;
+}
 
-    margin-bottom:0px;
+.banner-home h2,
+.banner-about h1 {
+  margin-bottom: 0px !important;
 }
-.entry-summary p{
-    color:#6666697a;
+.banner-about h1 {
+  font-size: 32px;
 }
-.projects__portafolio img{
-    box-shadow: 2px 5px 15px 0 rgb(0 0 0 / 8%);
-    border-radius: 6px !important;
-    transition: all .4s ease;
+.contect-contact h2 {
+  margin-bottom: 5px;
 }
-.projects__portafolio img:hover{
-    box-shadow:2px 5px 15px 0 rgb(0 0 0 / 16%);
+.nav-aligned-right .main-navigation {
+  border: 1px solid #ebf2fa;
 }
-.projects__portafolio p{
-    margin-bottom:10px;
+@media (max-width: 1024px) {
+  .gb-grid-column.gb-grid-column-b3e639c7,
+  .gb-grid-wrapper-164b2446 > .gb-grid-column,
+  .gb-grid-wrapper-4524081c > .gb-grid-column,
+  .gb-grid-wrapper-5cadd9d6 > .gb-grid-column {
+    padding-bottom: 0px;
+  }
 }
-.projects__portafolio p a{
-    color:#666669 !important;
+.recents-proyects h3 {
+  color: #427aa1;
 }
-button:not(.menu-toggle), html input[type="button"], input[type="reset"], input[type="submit"], .button, .button:visited, .wp-block-button .wp-block-button__link{
-    border-radius:0.5rem!important;
+@media (max-width: 992px) {
+  #mobile-header {
+    width: auto !important;
+  }
+}
+
+/*Author box */
+.author-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  font-size: 16px;
+}
+
+.author-links a {
+  font-size: 3em;
+  line-height: 0.5em;
+  float: right;
+}
+
+.author-box .avatar {
+  width: 30px;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+
+h5.author-title {
+  margin-bottom: 0.5em;
+}
+.wp-block-image figcaption {
+  font-size: 12px;
+  text-align: center;
+}
+.post-image-above-header .inside-article div.post-image {
+  margin-bottom: 0px;
+}
+h2.entry-title {
+  font-size: 24px;
+}
+.entry-content h2 {
+  font-size: 26px;
+}
+.entry-summary {
+  margin-top: 12px;
+}
+.weight300 {
+  font-weight: 300 !important;
+}
+p {
+  font-weight: 300;
 }
